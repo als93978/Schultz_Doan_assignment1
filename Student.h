@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -28,6 +29,8 @@ class Student {
     int quizGrade;
     int midtermGrade;
     int finalGrade;
+
+    vector<string> matchUser(string filename, string username, string password);
 };
 
 #endif
