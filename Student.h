@@ -9,7 +9,6 @@ using namespace std;
 
 class Student {
  public:
-    Student();
     bool login(string username, string password);
     string getStudentName();
     int getProjectGrade();
